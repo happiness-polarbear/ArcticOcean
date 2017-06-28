@@ -1,0 +1,11 @@
+#テーマ設定
+theme : white
+
+#アイコン設定
+logo : images/logo.png
+
+#スライド番号設定
+slide-number: true
+
+#著作権表記の設定
+footnote : "© 2017 y-ama"
