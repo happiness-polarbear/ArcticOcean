@@ -1,6 +1,5 @@
 ## HPNS-001_GitPitchを利用して複数人でスライド管理＆知見を蓄える
-- date: 2017/07/07
-- author: ama
+date: 2017/07/07 | author: ama
 
 ---
 ## 目次
@@ -27,22 +26,21 @@
 +++
 
 ### GitHub以外のサービスを利用するには
+<br />
+`https://gitpitch.com/user/repo/branch?grs=service`
 
-```
-https://gitpitch.com/user/repo/branch?grs=service
-```
 - GRS（Git Repository Services）クエリパラメータを手動で指定する
 - スライド左下隅にある切り替えメニューで切り替える
 
-### reveal.js
-[http://lab.hakim.se/reveal-js/#/](http://lab.hakim.se/reveal-js/#/)
+<br />
+[reveal.js](http://lab.hakim.se/reveal-js/#/)
 
 ---
 ## 使用方法
 - リポジトリ作成 |
 - PITCHME.md マークダウンファイルを作成 |
 - ファイルをマークダウンで編集してコミット&プッシュ |
-- https://gitpitch.com/[GitHubのユーザー名]/[リポジトリ名] |
+- `https://gitpitch.com/[GitHubのユーザー名]/[リポジトリ名]` |
 
 ---
 ## 設定オプション
@@ -75,7 +73,7 @@ background : hpnsAma/images/bg.jpg
 background-size : cover
 ```
 - デフォルトだと、背景画像はスライドの100%幅、100%高さになるように引き伸ばしされている。
-- background-size　：　auto, contain, cover の設定できる。
+- background-size: auto, contain, cover の設定できる。
 
 +++
 
@@ -121,9 +119,9 @@ vertical-center : false
 #カスタムCSS
 theme-override : assets/css/PITCHME.css
 ```
-- 1:選択したテーマのスタイルシートを上書きするカスタムCSSを作成
-- 2:Gitリポジトリに追加
-- 3:PITCHME.yamlに登録
+1 選択したテーマのスタイルシートを上書きするカスタムCSSを作成
+2 Gitリポジトリに追加
+3 PITCHME.yamlに登録
 
 +++
 
@@ -230,9 +228,8 @@ ArcticOcean（repo）
 
 ### スライドアクセス方法
 
-```
-https://gitpitch.com/user/repo/branch?p=hpnsAma
-```
+`https://gitpitch.com/user/repo/branch?p=hpnsAma`
+
 - "?p=hpnsAma"で管理フォルダを指定してあげて、ユーザー（スライド）切り替え
 
 ---
@@ -249,14 +246,17 @@ git config user.email "happiness.polarbear@gmail.com"
 - masterブランチから、作業ブランチhpnsXXXを作成
 - 作業フォルダを作成し、PITCHME.md、PITCHME.yaml、imagesフォルダ、任意フォルダを作成
 - PITCHME.mdにスライド内容をマークダウンで記述
-- PITCHME.yamlに、オプション設定を記述
 
 +++
 
+- PITCHME.yamlに、オプション設定を記述
 - 初期コミットを行ったら、masterブランチとのPRを作成
 - 作成完了したら、メンバー内でレビューを行い、指摘をもらう
 - メンバーの指摘を反映したら、発表できる段階になり、masterへマージする
 - プレゼンテーション
+
++++
+
 - 発表後、HPGメンバー指摘内容でスライドに反映するものがあれば更新
 - 更新が終わったら、マークダウンファイルをコピーしてFIXフォルダに入れ、スライド内容が分かる内容のタイトルで追加
 - masterにマージして終了
