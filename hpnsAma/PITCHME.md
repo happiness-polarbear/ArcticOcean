@@ -31,7 +31,7 @@
 ```
 https://gitpitch.com/user/repo/branch?grs=service
 ```
-- GRS（Git Repository Services）　クエリパラメータを手動で指定する
+- GRS（Git Repository Services）クエリパラメータを手動で指定する
 - スライド左下隅にある切り替えメニューで切り替える
 
 ### reveal.js

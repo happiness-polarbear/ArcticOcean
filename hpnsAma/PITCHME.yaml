@@ -2,7 +2,7 @@
 theme : white
 
 #アイコン設定
-logo : images/logo.png
+logo : hpnsAma/images/logo.png
 
 #スライド番号設定
 slide-number: true
