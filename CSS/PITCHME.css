@@ -3,3 +3,12 @@
 .reveal h2 {
     font-size: 1em;
 }
+.reveal h3 {
+    font-size: 0.9em;
+}
+li {
+	font-size: 0.8em;
+}
+.reveal pre code {
+    padding: 10px;
+}
