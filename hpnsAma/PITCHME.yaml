@@ -4,6 +4,9 @@ theme : white
 #アイコン設定
 logo : hpnsAma/images/logo.png
 
+#カスタムCSS設定
+theme-override : /CSS/PITCHME.css
+
 #スライド番号設定
 slide-number: true
 
