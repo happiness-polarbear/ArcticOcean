@@ -22,24 +22,24 @@
 - Gitリポジトリ内の、PITCHME.mdを、オンライン及びオフラインでスライドに変えるサービス  |
 - GitHub、Bitbucket、Gitea、Gogs、GitLabの、Gitリポジトリサービスと通信ができ利用可能 |
 - デフォルトでは、GitHubと通信するように設定されている |
-- CSS3/JavaScriptで作られたプレゼンテーションソフトウェアの[reveal.js](http://lab.hakim.se/reveal-js/)をスライド表示に使用 |
+- CSS3/JavaScriptで作られたプレゼンテーションソフトウェアのreveal.jsをスライド表示に使用 |
 - https://gitpitch.com/ |
 
 +++
 
 ### GitHub以外のサービスを利用するには
-
+<br />
 - GRS（Git Repository Services）クエリパラメータを手動で指定する
 
-```html
-https://gitpitch.com/user/repo/branch?grs=service
+```
+`https://gitpitch.com/user/repo/branch?grs=service`
 ```
 
 - スライド左下隅にある切り替えメニューで切り替える
 
 ---
 ## 使用方法
-
+<br />
 - リポジトリ作成 |
 - PITCHME.md マークダウンファイルを作成 |
 - PITCHME.mdを編集してコミット&プッシュ |
@@ -133,9 +133,9 @@ vertical-center : false
 ```
 theme-override : assets/css/PITCHME.css
 ```
-1 選択したテーマのスタイルシートを上書きするカスタムCSSを作成  
-2 Gitリポジトリに追加  
-3 PITCHME.yamlに登録  
+- 選択したテーマのスタイルシートを上書きするカスタムCSSを作成
+- Gitリポジトリに追加
+- PITCHME.yamlに登録
 
 +++
 
@@ -190,6 +190,22 @@ mousewheel : true
 
 +++
 #### 現状の設定
+```
+#テーマ設定
+theme : white
+
+#アイコン設定
+logo : hpnsAma/images/logo.png
+
+#カスタムCSS設定
+theme-override : /CSS/PITCHME.css
+
+#スライド番号設定
+slide-number: true
+
+#著作権表記の設定
+footnote : "© 2017 y-ama"
+```
 
 ---
 ## コードプレゼンテーション機能
