@@ -28,7 +28,7 @@
 +++
 
 ### GitHub以外のサービスを利用するには
-<br />
+
 - GRS（Git Repository Services）クエリパラメータを手動で指定する
 
 ```
@@ -39,7 +39,7 @@
 
 ---
 ## 使用方法
-<br />
+
 - リポジトリ作成 |
 - PITCHME.md マークダウンファイルを作成 |
 - PITCHME.mdを編集してコミット&プッシュ |
@@ -47,11 +47,11 @@
 
 ---
 ## 設定オプション
-<br />
+
 PITCHME.yamlファイルを使用して、オプション設定が出来る。
 
 +++
-#### テーマ設定
+### テーマ設定
 ```
 theme : moon
 ```
@@ -59,7 +59,7 @@ theme : moon
 - テーマの種類は、black, moon, night, beige, sky, whiteから選択できる。
 
 <br />
-#### アイコン設定
+### アイコン設定
 ```
 logo : hpnsAma/images/logo.jpg
 ```
@@ -68,14 +68,14 @@ logo : hpnsAma/images/logo.jpg
 
 +++
 
-#### 背景設定
+### 背景設定
 ```
 background : hpnsAma/images/bg.jpg
 ```
 
 - オリジナルの画像をスライド背景に設定ができる。
 
-#### 背景サイズ設定
+### 背景サイズ設定
 ```
 background-size : cover
 ```
@@ -85,7 +85,7 @@ background-size : cover
 
 +++
 
-#### ハイライト設定
+### ハイライト設定
 ```
 highlight : monokai
 ```
@@ -93,7 +93,7 @@ highlight : monokai
 - コードブロックの構文ハイライトのカスタマイズができる。
 - [カスタマイズデモ](https://highlightjs.org/static/demo/)
 
-#### スライド番号設定
+### スライド番号設定
 ```
 slide-number: true
 ```
@@ -102,14 +102,14 @@ slide-number: true
 
 +++
 
-#### 著作権表記の設定
+### 著作権表記の設定
 ```
 footnote : "© 2017 y-ama"
 ```
 
 - スライド左下隅に著作権表記が設定できる。
 
-#### 数式表記の設定
+### 数式表記の設定
 ```
 mathjax : TeX-MML-AM_HTMLorMML-full
 ```
@@ -120,7 +120,7 @@ mathjax : TeX-MML-AM_HTMLorMML-full
 
 +++
 
-#### 垂直センター設定
+### 垂直センター設定
 ```
 vertical-center : false
 ```
@@ -129,7 +129,7 @@ vertical-center : false
 - スライドの垂直センター設定を無効にするときに設定する。
 
 +++
-#### カスタムCSS
+### カスタムCSS
 ```
 theme-override : assets/css/PITCHME.css
 ```
@@ -139,7 +139,7 @@ theme-override : assets/css/PITCHME.css
 
 +++
 
-#### オートスライド設定
+### オートスライド設定
 ```
 autoslide : 5000
 ```
@@ -154,7 +154,7 @@ autoslide : 5000
 
 +++
 
-#### ループ設定
+### ループ設定
 ```
 loop : true
 ```
@@ -162,7 +162,7 @@ loop : true
 - 最後のスライドから、最初のスライドへナビゲーションを許可することができる。
 - 注） オートスライド設定も有効になっていると、停止しない限り、ずっとループされる。
 
-#### RTL設定
+### RTL設定
 ```
 rtl : true
 ```
@@ -172,7 +172,7 @@ rtl : true
 
 +++
 
-#### 移行設定
+### 移行設定
 ```
 transition : fade
 ```
@@ -181,7 +181,7 @@ transition : fade
 - エフェクト種類： convex, concave, default, fade, none, slide, zoom
 - デフォルトでは、slideエフェクト使用
 
-#### マウスホイール設定
+### マウスホイール設定
 ```
 mousewheel : true
 ```
@@ -189,7 +189,7 @@ mousewheel : true
 - マウスホイールを使用したスライドナビゲーションを許可することができる。
 
 +++
-#### 現状の設定
+### 現状の設定
 ```
 #テーマ設定
 theme : white
