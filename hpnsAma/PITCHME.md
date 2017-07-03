@@ -1,5 +1,5 @@
 ## HPNS-001_GitPitchを利用して複数人でスライド管理＆知見を蓄える
-##### <span style="font-size:0.6em; color:gray">date: 2017/07/07</span> | <span style="font-size:0.6em; color:gray">author: ama</span>
+##### <span style="font-size:0.6em; color:gray">date: 2017/07/07 | author: ama</span>
 
 ---
 ## 目次
@@ -22,22 +22,20 @@
 - Gitリポジトリ内の、PITCHME.mdを、オンライン及びオフラインでスライドに変えるサービス  |
 - GitHub、Bitbucket、Gitea、Gogs、GitLabの、Gitリポジトリサービスと通信ができ利用可能 |
 - デフォルトでは、GitHubと通信するように設定されている |
-- スライド表示は、CSS3/JavaScriptで作られたプレゼンテーションソフトウェアのreveal.jsを使用 |
+- CSS3/JavaScriptで作られたプレゼンテーションソフトウェアの[reveal.js](http://lab.hakim.se/reveal-js/)をスライド表示に使用 |
 - https://gitpitch.com/ |
 
 +++
 
 ### GitHub以外のサービスを利用するには
-<br />
-
-<span style="font-size:0.6em; color:#333333; font-weight: bold;">https://gitpitch.com/user/repo/branch?grs=service</span>
 
 - GRS（Git Repository Services）クエリパラメータを手動で指定する
+
+```html
+https://gitpitch.com/user/repo/branch?grs=service
+```
+
 - スライド左下隅にある切り替えメニューで切り替える
-
-<br />
-
-[reveal.js](http://lab.hakim.se/reveal-js/#/)
 
 ---
 ## 使用方法
@@ -50,17 +48,17 @@
 ---
 ## 設定オプション
 <br />
-PITCHME.yamlファイルを使用して、オプション設定できる。
+PITCHME.yamlファイルを使用して、オプション設定が出来る。
 
 +++
-
 #### テーマ設定
 ```
 theme : moon
 ```
 
-- テーマの種類は、black, moon, night, beige, sky, white　から選択できる。
+- テーマの種類は、black, moon, night, beige, sky, whiteから選択できる。
 
+<br />
 #### アイコン設定
 ```
 logo : hpnsAma/images/logo.jpg
@@ -82,7 +80,7 @@ background : hpnsAma/images/bg.jpg
 background-size : cover
 ```
 
-- デフォルトだと、背景画像はスライドの100%幅、100%高さになるように引き伸ばしされている。
+- デフォルトだと、背景画像はスライドの幅100%、高さ100%になるように引き伸ばしされている。
 - background-size: auto, contain, cover の設定できる。
 
 +++
@@ -92,7 +90,7 @@ background-size : cover
 highlight : monokai
 ```
 
-- コードブロックの構文ハイライトスタイルのカスタマイズができる。
+- コードブロックの構文ハイライトのカスタマイズができる。
 - [カスタマイズデモ](https://highlightjs.org/static/demo/)
 
 #### スライド番号設定
@@ -116,8 +114,8 @@ footnote : "© 2017 y-ama"
 mathjax : TeX-MML-AM_HTMLorMML-full
 ```
 
-- 数式表記設定をすると、スライド用に、MathJax設定を有効にしてカスタマイズすることができる。
-- MathJax: テキストベースのコマンドをWeb上で数式に整形・表示するオープンソースのJavaScriptライブラリ
+- 数式表記設定をすると、MathJaxを有効にしてカスタマイズすることができる。
+- MathJax→テキストベースのコマンドをWeb上で数式に整形・表示するオープンソースのJavaScriptライブラリ
 - [MathJax公式ページ](https://www.mathjax.org/)
 
 +++
@@ -130,14 +128,14 @@ vertical-center : false
 - デフォルトでは、垂直配置設定が有効になっている→コンテンツはスライド中央配置になっている。
 - スライドの垂直センター設定を無効にするときに設定する。
 
++++
 #### カスタムCSS
 ```
 theme-override : assets/css/PITCHME.css
 ```
-
-1 選択したテーマのスタイルシートを上書きするカスタムCSSを作成
-2 Gitリポジトリに追加
-3 PITCHME.yamlに登録
+1 選択したテーマのスタイルシートを上書きするカスタムCSSを作成  
+2 Gitリポジトリに追加  
+3 PITCHME.yamlに登録  
 
 +++
 
@@ -190,6 +188,9 @@ mousewheel : true
 
 - マウスホイールを使用したスライドナビゲーションを許可することができる。
 
++++
+#### 現状の設定
+
 ---
 ## コードプレゼンテーション機能
 
@@ -197,7 +198,7 @@ mousewheel : true
 ### コードを埋め込むには
 <br />
 
-- マークダウンコードブロックの使用 |
+- マークダウンのコードブロックを使用 |
 - GitPitch コードデリミタスライドを使用 |
 - GitPitch GISTスライドを使用 |
 - GitPitch イメージスライドを使用 |
@@ -222,18 +223,6 @@ Gitリポジトリ内の任意のファイルから、プレゼンテーショ�
 
 ---
 ## 複数人での運用
-
-+++
-
-### ブランチ運用
-
-```
-master
-↓   ↑
-↓   ↑ PR
-↓   ↑
-hpnsXXX
-```
 
 +++
 
@@ -276,6 +265,17 @@ ArcticOcean（repo）
 ```
 
 +++
+### ブランチ運用
+
+```
+master
+↓   ↑
+↓   ↑ PR
+↓   ↑
+hpnsXXX
+```
+
++++
 
 ### スライドアクセス方法
 
@@ -296,10 +296,10 @@ git config user.email "happiness.polarbear@gmail.com"
 
 - masterブランチから、作業ブランチhpnsXXXを作成
 - 作業フォルダを作成し、PITCHME.md、PITCHME.yaml、imagesフォルダ、任意フォルダを作成
-- PITCHME.mdにスライド内容をマークダウンで記述
 
 +++
 
+- PITCHME.mdにスライド内容をマークダウンで記述
 - PITCHME.yamlに、オプション設定を記述
 - 初期コミットを行ったら、masterブランチとのPRを作成
 - 作成完了したら、メンバー内でレビューを行い、指摘をもらう
@@ -315,6 +315,7 @@ git config user.email "happiness.polarbear@gmail.com"
 ---
 ## 感想・問題点
 - プレビュー機能が無いので、どの程度のテキスト量を入れればバランス良いか分からなかった
+- PITCHME.cssを利用して、オリジナルのスライドを模索する必要がある
 
 ---
 ## 終わり
