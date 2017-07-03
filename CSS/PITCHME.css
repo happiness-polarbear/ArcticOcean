@@ -2,6 +2,10 @@
 
 .reveal h2 {
     font-size: 1em;
+	text-align: left;
+	border-bottom: 1px solid #333333;
+	border-left: 10px solid #333333;
+	padding-left: 10px;
 }
 .reveal h3 {
     font-size: 0.9em;
@@ -14,4 +18,7 @@ li {
 }
 .reveal pre code {
     padding: 20px 10px;
+}
+.reveal p {
+	font-size: 0.8em !important;
 }
