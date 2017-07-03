@@ -9,9 +9,9 @@
 }
 .reveal h3 {
     font-size: 0.9em;
-	text-align: left;
-	border-left: 10px solid #333333;
-	padding-left: 10px;
+	text-align: left !important;
+	border-left: 10px solid #333333 !important;
+	padding-left: 10px !important;
 }
 .reveal ul {
 	display: block;
@@ -26,5 +26,5 @@ li {
 	font-size: 0.8em !important;
 }
 .reveal pre {
-	width: 100%;
+	width: 100% !important;
 }
