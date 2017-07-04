@@ -1,5 +1,5 @@
 # HPNS-001_GitPitchを利用して複数人でスライド管理＆知見を蓄える
-<span style="font-size:0.6em; color:gray">date: 2017/07/07 | author: ama</span>
+<span style="font-size:0.8em; color:gray">date: 2017/07/07 | author: ama</span>
 
 ---
 ## 目次
@@ -341,6 +341,8 @@ git config user.email "happiness.polarbear@gmail.com"
 ## 感想・問題点
 - プレビュー機能が無いので、どの程度のテキスト量を入れればバランス良いか分からなかった
 - PITCHME.cssを利用して、オリジナルのスライドを模索する必要がある
+- マークダウンなので、慣れれば早くスライドを作れそう
+- カスタマイズCSSを凝れば、愛着あるスライドが作れそう
 
 ---
 #### 終わり
