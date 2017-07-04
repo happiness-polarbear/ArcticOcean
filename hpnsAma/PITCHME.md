@@ -222,14 +222,22 @@ footnote : "© 2017 y-ama"
 <div id="header" class="headerWrap">
     <div class="inner">
         <div class="headerLogoArea">
-            <a href="https://www.hotpepper.jp/"><img src="/SYS/cmn/images/front_002/hoge.png" alt="" width="264" height="45"></a>
+            <a href="https://www.hotpepper.jp/">
+            	<img src="/SYS/cmn/images/front_002/hoge.png" alt="" width="264" height="45">
+			</a>
         </div>
     </div>
 </div>
 ```
 @[1]
-@[2]
-@[3-4]
+@[2-8]
+@[3-7]
+
+```
+@[1]
+@[2-8]
+@[3-7]
+```
 
 ---
 ## 複数人での運用
