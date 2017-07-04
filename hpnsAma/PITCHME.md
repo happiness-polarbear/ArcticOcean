@@ -187,6 +187,8 @@ transition : fade
 - エフェクト種類： convex, concave, default, fade, none, slide, zoom
 - デフォルトでは、slideエフェクト使用
 
++++
+
 ### マウスホイール設定
 ```
 mousewheel : true
@@ -218,7 +220,6 @@ footnote : "© 2017 y-ama"
 
 +++
 ### コードを埋め込むには
-<br />
 
 - マークダウンのコードブロックを使用 |
 - GitPitch コードデリミタスライドを使用 |
@@ -227,7 +228,7 @@ footnote : "© 2017 y-ama"
 
 +++
 ### GitPitch コードデリミタスライドを使用
-<br />
+
 Gitリポジトリ内の任意のファイルから、プレゼンテーション内の任意のスライドのコードブロックに、コードを読み込むことができる。
 
 ```
@@ -240,7 +241,7 @@ Gitリポジトリ内の任意のファイルから、プレゼンテーショ�
 スライドにGitHub GISTを埋め込むには、PITCHME.mdファイルにGIST識別子を指定する。
 
 ```
----?gist=cf4227416b55dac54a53
+---?gist=cf12345XXXXS
 ```
 
 ---
