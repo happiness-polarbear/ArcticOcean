@@ -218,31 +218,18 @@ footnote : "© 2017 y-ama"
 ---
 ## コードプレゼンテーション機能
 
-+++
-### コードを埋め込むには
-
-- マークダウンのコードブロックを使用 |
-- GitPitch コードデリミタスライドを使用 |
-- GitPitch GISTスライドを使用 |
-- GitPitch イメージスライドを使用 |
-
-+++
-### GitPitch コードデリミタスライドを使用
-
-Gitリポジトリ内の任意のファイルから、プレゼンテーション内の任意のスライドのコードブロックに、コードを読み込むことができる。
-
 ```
----?code=path/to/source.file
+<div id="header" class="headerWrap">
+    <div class="inner">
+        <div class="headerLogoArea">
+            <a href="https://www.hotpepper.jp/"><img src="/SYS/cmn/images/front_002/hoge.png" alt="" width="264" height="45"></a>
+        </div>
+    </div>
+</div>
 ```
-
-+++
-### GitPitch GISTスライドを使用
-<br />
-スライドにGitHub GISTを埋め込むには、PITCHME.mdファイルにGIST識別子を指定する。
-
-```
----?gist=cf12345XXXXS
-```
+@[1]
+@[2]
+@[3-4]
 
 ---
 ## 複数人での運用
