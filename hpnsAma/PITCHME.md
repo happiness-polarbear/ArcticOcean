@@ -1,4 +1,4 @@
-## HPNS-001_GitPitchを利用して複数人でスライド管理＆知見を蓄える
+# HPNS-001_GitPitchを利用して複数人でスライド管理＆知見を蓄える
 ##### <span style="font-size:0.6em; color:gray">date: 2017/07/07 | author: ama</span>
 
 ---

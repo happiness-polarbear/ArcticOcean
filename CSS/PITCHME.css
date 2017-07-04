@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+.reveal h1 {
+	font-size: 1em;
+}
 .reveal h2 {
     font-size: 1em;
 	text-align: left;
