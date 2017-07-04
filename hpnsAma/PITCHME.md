@@ -75,6 +75,7 @@ background : hpnsAma/images/bg.jpg
 
 - オリジナルの画像をスライド背景に設定ができる。
 
+<br />
 ### 背景サイズ設定
 ```
 background-size : cover
@@ -92,7 +93,7 @@ highlight : monokai
 
 - コードブロックの構文ハイライトのカスタマイズができる。
 - [カスタマイズデモ](https://highlightjs.org/static/demo/)
-
+<br />
 ### スライド番号設定
 ```
 slide-number: true
