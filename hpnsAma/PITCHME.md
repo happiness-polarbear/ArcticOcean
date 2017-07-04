@@ -302,7 +302,9 @@ hpnsXXX
 
 ### スライドアクセス方法
 
+```
 `https://gitpitch.com/user/repo/branch?p=hpnsAma`
+```
 
 - "?p=hpnsAma"で管理フォルダを指定してあげて、ユーザー（スライド）切り替え
 
@@ -341,4 +343,4 @@ git config user.email "happiness.polarbear@gmail.com"
 - PITCHME.cssを利用して、オリジナルのスライドを模索する必要がある
 
 ---
-## 終わり
+#### 終わり
