@@ -232,6 +232,7 @@ footnote : "© 2017 y-ama"
     </div>
 </div>
 ```
+@[fragment-range]
 @[1-7]
 @[2]
 @[3]
