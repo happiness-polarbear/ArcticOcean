@@ -221,7 +221,7 @@ footnote : "© 2017 y-ama"
 ---
 ## コードプレゼンテーション機能
 
-```
+```html
 <div id="header" class="headerWrap">
     <div class="inner">
         <div class="headerLogoArea">
