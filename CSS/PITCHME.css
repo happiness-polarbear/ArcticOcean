@@ -1,6 +1,8 @@
 @charset "utf-8";
 
+/*------------------------------Headline*/
 .reveal h1 {
+	text-align: left;
 	font-size: 1.2em !important;
 }
 .reveal h2 {
@@ -16,15 +18,18 @@
 	border-left: 10px solid #333333 !important;
 	padding-left: 10px !important;
 }
+/*------------------------------list Style*/
 .reveal ul {
 	display: block;
 }
 li {
 	font-size: 0.8em !important;
 }
+/*------------------------------Code Style*/
 .reveal pre code {
     padding: 20px 10px;
 }
+/*------------------------------Text Style*/
 .reveal p {
 	font-size: 0.8em !important;
 }
