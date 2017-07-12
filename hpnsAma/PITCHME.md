@@ -1,5 +1,5 @@
 # HPNS-001_GitPitchを利用して複数人でスライド管理＆知見を蓄える
-<span style="font-size:0.8em; color:gray; display: block; text-align: right;">date: 2017/07/14 | author: ama</span>
+<span style="font-size:0.8em; color:gray; display: block; text-align: left;">date: 2017/07/14 | author: ama</span>
 
 ---
 ## 目次
@@ -11,7 +11,7 @@
 - 複数人での運用
 - フォルダ構成
 - 作業手順
-- 感想・問題点
+- 感想
 
 ---
 ## はじめに
