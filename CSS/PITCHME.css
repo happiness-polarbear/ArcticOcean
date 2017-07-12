@@ -4,18 +4,22 @@
 .reveal h1 {
 	text-align: left;
 	font-size: 1.2em !important;
+	border-bottom: 1px solid #16a085;
+	color: #1abc9c;
 }
 .reveal h2 {
     font-size: 1em;
 	text-align: left;
-	border-bottom: 1px solid #333333;
-	border-left: 10px solid #333333;
+	border-bottom: 1px solid #16a085;
+	border-left: 10px solid #16a085;
 	padding-left: 10px;
+	color: #1abc9c;
 }
 .reveal h3 {
+	color: #1abc9c;
     font-size: 0.9em;
 	text-align: left !important;
-	border-left: 10px solid #333333 !important;
+	border-left: 10px solid #16a085 !important;
 	padding-left: 10px !important;
 }
 /*------------------------------list Style*/
