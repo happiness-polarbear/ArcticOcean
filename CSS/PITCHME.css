@@ -22,8 +22,11 @@
 .reveal ul {
 	display: block;
 }
-li {
+.reveal ul > li {
 	font-size: 0.8em !important;
+}
+.reveal ul > li + li {
+	margin-top: 10px;
 }
 /*------------------------------Code Style*/
 .reveal pre code {
@@ -31,7 +34,9 @@ li {
 }
 /*------------------------------Text Style*/
 .reveal p {
+	text-align: left;
 	font-size: 0.8em !important;
+	line-height: 1.4;
 }
 .reveal pre {
 	width: 100% !important;
