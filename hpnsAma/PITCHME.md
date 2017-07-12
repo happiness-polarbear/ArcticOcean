@@ -222,17 +222,16 @@ footnote : "© 2017 y-ama"
 ## コードプレゼンテーション機能
 
 ```html
-<div id="header" class="headerWrap">
+<div class="headerWrap">
     <div class="inner">
         <div class="headerLogoArea">
-            <a href="https://www.hotpepper.jp/">
-            	<img src="/SYS/cmn/images/front_002/hoge.png" alt="" width="264" height="45">
+            <a href="#">
+            	<img src="hoge.png" alt="" width="264" height="45" />
 			</a>
         </div>
     </div>
 </div>
 ```
-@[fragment-range]
 @[1]
 @[2]
 @[3]
